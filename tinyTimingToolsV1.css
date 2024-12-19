@@ -1,0 +1,29 @@
+﻿/*DATE SELECTOR*/
+.dateSelectHead{border:1px solid black;border-radius:8px;}
+.dateSelectorTopMain{margin-bottom:8px;}
+.topDateInFullFormat{padding:8px;background-color:lightgray;border-radius:8px;cursor:pointer;}
+.dateSelectCLS{width:200px;height:200px;overflow:hidden;}
+.dateSelectCLS td{text-align:center;padding:8px;}
+.monthBox{}
+.monthBoxTop{padding:4px;border:1px solid black;border-radius:8px;margin:8px;cursor:pointer;background-color:lightblue;}
+.monthcellCLS{animation:dateSelectAnime 0.2s linear forwards;}
+.monthcellHoldCLS{padding:15px;cursor:pointer;border-radius:8px;background-color:yellow;}
+.yearcellCLS{animation:dateSelectAnime 0.2s linear forwards;}
+.yearcellHoldCLS{padding:10px;cursor:pointer;background-color:lightblue;border-radius:8px;}
+.allDaysCellCLS{background-color:lightgray;border-radius:8px;cursor:pointer;}
+.allDaysCellHoldCLS{}
+.todayCLS{color:blue;background-color:lightgreen;border-radius:8px;cursor:pointer;}
+.todayHoldCLS{}
+.offDateCLS{background-color:orange;border-radius:8px;cursor:pointer;}
+.offDateHoldCLS{}
+.offDaysOfMonthCLS{background-color:pink;border-radius:8px;cursor:pointer;}
+.offDaysOfMonthHoldCLS{}
+.offDayOfWeekCLS{background-color:pink;border-radius:8px;cursor:pointer;}
+.offDayOfWeekHoldCLS{}
+
+@keyframes dateSelectAnime{
+from{padding:0px;}
+to{padding:8px;}
+}
+/*DATE SELECTOR*/
+
